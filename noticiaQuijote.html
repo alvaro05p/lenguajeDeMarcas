@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        a { color: black; }
+        table {
+            width: 60%;
+            padding: 1%;
+            background: linear-gradient(to bottom, #1e00ffa5, #b700ffaf);
+            color: white;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        
+        /* Añadimos un color de fondo, excluyendo la primera columna*/
+
+        td:not(:first-child) {
+          background-color: lightskyblue;
+        }
+
+    </style>
+</head>
+
+<body> 
+
+<img src="boton5.png" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="" title="" href="enlaces.html" coords="7,2,119,51" shape="rect">
+    <area target="" alt="" title="" href="noticia.html" coords="156,3,277,48" shape="rect">
+    <area target="" alt="" title="" href="noticiaEquaciones.html" coords="316,5,434,48" shape="0">
+    <area target="" alt="" title="" href="noticiaPoesia.html" coords="478,4,595,47" shape="0">
+    <area target="" alt="" title="" href="noticiaQuijote.html" coords="634,6,750,48" shape="0">
+</map>
+
+<h1>Hace cuatrocientos años que falleció Miguel de Cervantes, el «príncipe de los ingenios»</h1>
+<p><em style="background-color: grey;">En un lugar de La Mancha (dónde), de cuyo nombre no quiero acordarme, no ha mucho tiempo (cuándo) que vivía (qué) un hidalgo (quién) de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor (con qué).</em></p>
+<a href="https://www.telesurtv.net/news/400-anos-de-la-muerte-de-Miguel-de-Cervantes-20160421-0070.html">Mas información sobre esta noticia</a>
+
+<h2>Otros titulos interesantes:</h2>
+
+<table border="3" style="width: 70%; ">
+
+   <!-- Añadimos un título a la tabla-->
+
+    <caption style="font-size: 200%; color:black">Libros a leer:</caption>
+
+    <colgroup>
+      <!-- Aplica el estilo columna1 a esta columna -->
+      <col class="columna1">
+      <!-- Aplica el estilo columna2 a esta columna --> 
+      <col class="columna2"> 
+      <col class="columna1"> 
+      <col class="columna2"> 
+  </colgroup>
+
+  <!-- Añadimos otra fila al encabezado -->
+  <thead>
+      <tr>
+          <th>Identificador</th>
+          <th style="width: 50%; height: 50%;">Obra</th>
+          <th></th>
+          <th></th>
+          
+      </tr>
+  </thead>
+
+  <!-- Encabezado de la tabla -->
+  <thead>
+      <tr>
+          
+          <th>ID</th>
+          <th style="width: 50%; height: 50%;">Título</th>
+          <th style="width: 30%;">Autor</th>
+          <th style="width: 20%;">Precio</th>
+      </tr>
+  </thead>
+
+  <!-- Cuerpo de la tabla -->
+  <!-- Añadimos otro libro a cada fila-->>
+  <tbody>
+      <tr style="width:130%; height: 50px;">
+          <th>1</th>
+          <td><a href="https://amzn.eu/d/ejV4RXe">Odisea</a></td>
+          <td rowspan="2">Homero</td>
+          <td>12.99€</td>
+      </tr>
+
+      <tr style="height: 50px;">
+        <th>2</th>
+        <td><a href="enlace-del-libro">La odisea 2</a></td>
+        
+        <td>12.50€</td>
+      </tr>
+
+      <tr style="height: 50px;">
+        <th>3</th>
+        <td><a href="https://amzn.eu/d/cEM1Jpe">El código Da Vinci</a></td>
+        <td rowspan="2">Dan Brown</td>
+        <td>7.95€</td>
+      </tr>
+
+      <tr style="height: 50px;">
+        <th>4</th>
+        <td><a href="enlace-del-libro">Fiesta en la india</a></td>
+        
+        <td>12.50€</td>
+      </tr>
+      <tr style="height: 50px;">
+        <th>5</th>
+        <td><a href="https://amzn.eu/d/hlwSvQp">Y no quedó ninguno</a></td>
+        <td rowspan="2">Agatha Christie</td>
+        <td>9.95€</td> 
+      </tr>
+
+      <tr style="height: 50px;">
+        <th>6</th>
+        <td><a href="enlace-del-libro">Las aventuras de pakito</a></td>
+        
+        <td>12.50€</td>
+      </tr>
+
+      <tr style="height: 50px;">
+        <th>7</th>
+        <td><a href="https://amzn.eu/d/8UEvnxL">Alicia en el país de las maravillas</a></td>
+        <td rowspan="2">Lewis Carroll</td>
+        <td>11.95€</td>
+      </tr>
+
+      <tr style="height: 50px;">
+        <th>8</th>
+        <td><a href="enlace-del-libro">La leyenda del srek</a></td>
+        
+        <td>12.50€</td>
+      </tr>
+
+      <tr style="height: 50px;">
+        <th>9</th>
+        <td><a href="https://amzn.eu/d/fqD488X">Las aventuras de Sherlock Holmes</a></td>
+        <td rowspan="2">Arthur Conan Doyle</td>
+        <td>8.95€</td>
+      </tr>
+
+      <tr style="height: 50px;">
+        <th>10</th>
+        <td><a href="enlace-del-libro">El mar no es azul</a></td>
+        
+        <td>12.50€</td>
+      </tr>
+
+      <tr style="height: 50px;">
+        <th>11</th>
+        <td><a href="https://amzn.eu/d/dZneqpC">El Hobbit</a></td>
+        <td rowspan="2">J.R.R. Tolkien</td>
+        <td>10.95€</td>
+      </tr>
+
+      <tr style="height: 50px;">
+        <th>12</th>
+        <td><a href="enlace-del-libro">La gracia andaluza</a></td>
+        
+        <td>12.50€</td>
+      </tr>
+
+    </tbody>
+</table>
+
+<!--Creo una ordened list que tenga coherencia con la tabla-->
+<h2>Autores mencionados anteriormente</h2>
+<ol>
+  <li>Homero</li>
+  <li>Dan Brown</li>
+  <li>Agatha Christie</li>
+  <li>Lewis Carroll</li>
+  <li>Arthur Conan Doyle</li>
+  <li>J.R.R Tolkien</li>
+</ol>
+
+<br>
+
+    <a title="Volver atrás" href="enlaces.html"><img src="atras.png" alt="Volver atrás" width="10%"></a>
+
+</br>
+
+</body>

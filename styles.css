@@ -1,0 +1,75 @@
+/* Place your CSS styles in this file */
+
+p {
+
+    text-align: left;
+    font-family: Arial;
+    color: rgb(112, 0, 192);
+  }
+
+  h1 {
+
+    /* Creamos un degradado en los titulos que quede acorde a la estetica de la pagina*/
+
+    background: linear-gradient(to right, #800080, #1E90FF);
+    color: white; 
+  }
+
+  h2{
+      color:#4747ff;
+      background-color: gainsboro;
+  }
+
+  a{
+    color: goldenrod;
+    
+
+  }
+
+  body{
+    background-image: url(montañas.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  /* Cambia cualquier imagen que lleve este class  */
+
+  @media only screen and (max-width: 768px) {
+    .imagenMovil {
+      content: url('movilsize.webp'); 
+      width: 100%; 
+    }
+  }
+
+  .poesia{
+    position: relative;
+    right: 50px;
+    top: 30px;
+    border: #4747ff;
+    height: 75px;
+    overflow-y: scroll;
+  }
+
+  .botonera{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+  }
+
+  .listaHiperenlaces{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: blue;
+    border: 2px solid black;
+    width: 300px;
+    float: right;
+  }
+
+  .borrador{
+    position:fixed;
+    z-index: -1;
+    opacity: 50%;
+  }
